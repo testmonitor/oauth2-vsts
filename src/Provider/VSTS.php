@@ -2,15 +2,15 @@
 
 namespace Jeylabs\OAuth2\Client\Provider;
 
+use InvalidArgumentException;
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
+use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use League\OAuth2\Client\Grant\AbstractGrant;
 use Jeylabs\OAuth2\Client\Grant\JwtBearer;
-use Jeylabs\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 use \Firebase\JWT\JWT;
-use Jeylabs\OAuth2\Client\Provider\VSTSResourceOwner;
 
 class VSTS extends AbstractProvider
 {
