@@ -1,0 +1,33 @@
+{
+  "name": "jeylabs/oauth2-vsts",
+  "description": "Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "S A Sureshkumar",
+      "email": "suresh.ceymplon@jeylabs.com.au",
+      "homepage": "https://jeylabs.com"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "microsoft",
+    "visual studio team services",
+    "team foundation server",
+    "vsts",
+    "tfs"
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "league/oauth2-client": "~2.0",
+    "firebase/php-jwt": "~3.0||~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jeylabs\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
