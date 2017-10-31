@@ -10,7 +10,7 @@ use Jeylabs\OAuth2\Client\Grant\JwtBearer;
 use Jeylabs\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 use \Firebase\JWT\JWT;
-use TheNetworg\OAuth2\Client\Provider\VSTSResourceOwner;
+use Jeylabs\OAuth2\Client\Provider\VSTSResourceOwner;
 
 class VSTS extends AbstractProvider
 {
@@ -226,16 +226,16 @@ class VSTS extends AbstractProvider
     {
         $grant = $this->verifyGrant($grant);
         $params = [
-            'client_id'     => $this->clientId,
+            'client_id' => $this->clientId,
             'client_secret' => $this->clientSecret,
-            'redirect_uri'  => $this->redirectUri,
+            'redirect_uri' => $this->redirectUri,
             'client_assertion_type' => 'urn:ietf:params:oauth:client-assertion-type:jwt-bearer'
         ];
-        $params   = $grant->prepareRequestParameters($params, $options);
-        $request  = $this->getAccessTokenRequest($params);
+        $params = $grant->prepareRequestParameters($params, $options);
+        $request = $this->getAccessTokenRequest($params);
         $response = $this->getParsedResponse($request);
         $prepared = $this->prepareAccessTokenResponse($response);
-        $token    = $this->createAccessToken($prepared, $grant);
+        $token = $this->createAccessToken($prepared, $grant);
         return $token;
     }
 }

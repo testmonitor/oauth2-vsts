@@ -35,4 +35,4 @@ We accept contributions via [Pull Requests on Github](https://github.com/Jeylabs
 If you find a bug or encounter any issue or have a problem/question with this library please create a [new issue](https://github.com/Jeylabs/oauth2-vsts/issues).
 
 ## License
-The MIT License (MIT). Please see [License File](https://github.com/jeylabs/oauth2-vsts/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/jeylabs/oauth2-vsts/blob/master/LICENSE.md) for more information.
