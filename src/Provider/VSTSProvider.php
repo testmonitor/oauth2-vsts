@@ -12,7 +12,7 @@ use Jeylabs\OAuth2\Client\Grant\JwtBearer;
 use Psr\Http\Message\ResponseInterface;
 use \Firebase\JWT\JWT;
 
-class VSTS extends AbstractProvider
+class VSTSProvider extends AbstractProvider
 {
     use BearerAuthorizationTrait;
 
