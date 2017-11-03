@@ -228,6 +228,7 @@ class VSTSProvider extends AbstractProvider
         $params = [
             'client_id' => $this->clientId,
             'client_secret' => $this->clientSecret,
+            'client_assertion' => $this->clientSecret,
             'redirect_uri' => $this->redirectUri,
             'client_assertion_type' => 'urn:ietf:params:oauth:client-assertion-type:jwt-bearer'
         ];
