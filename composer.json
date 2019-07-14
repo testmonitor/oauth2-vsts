@@ -1,5 +1,5 @@
 {
-  "name": "jeylabs/oauth2-vsts",
+  "name": "testmonitor/oauth2-vsts",
   "description": "Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
   "license": "MIT",
   "authors": [
