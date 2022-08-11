@@ -7,10 +7,8 @@ use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
-use League\OAuth2\Client\Grant\AbstractGrant;
 use Jeylabs\OAuth2\Client\Grant\JwtBearer;
 use Psr\Http\Message\ResponseInterface;
-use \Firebase\JWT\JWT;
 
 class VSTSProvider extends AbstractProvider
 {
@@ -86,7 +84,7 @@ class VSTSProvider extends AbstractProvider
 
         parent::__construct($options, $collaborators);
 
-        $this->grantFactory->setGrant('jwt_bearer', new JwtBearer);
+        $this->grantFactory->setGrant('jwt_bearer', new JwtBearer());
     }
 
     /**
