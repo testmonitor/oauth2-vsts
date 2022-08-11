@@ -1,7 +1,7 @@
 # Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) Provider for OAuth 2.0 Client
-[![Latest Version](https://img.shields.io/github/release/jeylabs/oauth2-vsts.svg?style=flat-square)](https://github.com/jeylabs/oauth2-vsts/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/jeylabs/oauth2-vsts.svg?style=flat-square)](https://packagist.org/packages/jeylabs/oauth2-vsts)
-[![Software License](https://img.shields.io/packagist/l/jeylabs/oauth2-vsts.svg?style=flat-square)](LICENSE.md)
+[![Latest Version](https://img.shields.io/github/release/testmonitor/oauth2-vsts.svg?style=flat-square)](https://github.com/testmonitor/oauth2-vsts/releases)
+[![Total Downloads](https://img.shields.io/packagist/dt/testmonitor/oauth2-vsts.svg?style=flat-square)](https://packagist.org/testmonitor/jeylabs/oauth2-vsts)
+[![Software License](https://img.shields.io/packagist/l/testmonitor/oauth2-vsts.svg?style=flat-square)](LICENSE.md)
 
 This package provides [Visual Studio Team Services (VSTS) and Team Foundation Server (TFS)](https://docs.microsoft.com/en-us/vsts/integrate/) OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
@@ -20,7 +20,7 @@ This package provides [Visual Studio Team Services (VSTS) and Team Foundation Se
 
 To install the client you need to require the package using composer:
 
-	$ composer require jeylabs/oauth2-vsts
+	$ composer require testmonitor/oauth2-vsts
 
 Use composer's autoload:
 
