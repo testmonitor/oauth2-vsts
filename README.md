@@ -10,7 +10,6 @@ This package provides [Visual Studio Team Services (VSTS) and Team Foundation Se
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Tests](#tests)
 - [Changelog](#changelog)
 - [Contributing](#contributing)
 - [Credits](#credits)
@@ -36,11 +35,22 @@ Usage is the same as The League's OAuth client, using `\Jeylabs\OAuth2\Client\Pr
 
 ## Examples
 
-## Tests
+```php
+$provider = new VSTSProvider([
+    'clientId' => $clientId,
+    'clientSecret' => $clientSecret,
+    'redirectUri' => $redirectUri,
+    'urlAuthorize' => 'https://app.vssps.visualstudio.com/oauth2/authorize',
+    'urlAccessToken' => 'https://app.vssps.visualstudio.com/oauth2/token',
+    'urlResourceOwnerDetails' => 'https://app.vssps.visualstudio.com/oauth2/token/resource',
+    'responseType' => 'Assertion',
+    'scopes' => 'vso.project vso.work_full',
+]);
 
-The package contains integration tests. You can run them using PHPUnit.
-
-    $ vendor/bin/phpunit
+$token = $provider->getAccessToken('jwt_bearer', [
+    'assertion' => $code,
+]);
+```
 
 ## Changelog
 
