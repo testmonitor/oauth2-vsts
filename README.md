@@ -65,7 +65,7 @@ Refer to [CONTRIBUTING](CONTRIBUTING.md) for contributing details.
 * **Thijs Kok** - *Lead developer* - [ThijsKok](https://github.com/thijskok)
 * **Stephan Grootveld** - *Developer* - [Stefanius](https://github.com/stefanius)
 * **Frank Keulen** - *Developer* - [FrankIsGek](https://github.com/frankisgek)
-
+* [All Contributors](https://github.com/testmonitor/oauth2-vsts/contributors)
 ## License
 
 The MIT License (MIT). Refer to the [License](LICENSE.md) for more information.
