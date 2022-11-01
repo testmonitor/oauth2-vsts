@@ -1,6 +1,6 @@
 # Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) Provider for OAuth 2.0 Client
 [![Latest Version](https://img.shields.io/github/release/testmonitor/oauth2-vsts.svg?style=flat-square)](https://github.com/testmonitor/oauth2-vsts/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/testmonitor/oauth2-vsts.svg?style=flat-square)](https://packagist.org/testmonitor/jeylabs/oauth2-vsts)
+[![Total Downloads](https://img.shields.io/packagist/dt/testmonitor/oauth2-vsts.svg?style=flat-square)](https://packagist.org/testmonitor/oauth2-vsts)
 [![Software License](https://img.shields.io/packagist/l/testmonitor/oauth2-vsts.svg?style=flat-square)](LICENSE.md)
 
 This package provides [Visual Studio Team Services (VSTS) and Team Foundation Server (TFS)](https://docs.microsoft.com/en-us/vsts/integrate/) OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
@@ -62,10 +62,13 @@ Refer to [CONTRIBUTING](CONTRIBUTING.md) for contributing details.
 
 ## Credits
 
+This package is based on [JeyLabs OAuth 2 VSTS](https://github.com/jeylabs/oauth2-vsts).
+
 * **Thijs Kok** - *Lead developer* - [ThijsKok](https://github.com/thijskok)
 * **Stephan Grootveld** - *Developer* - [Stefanius](https://github.com/stefanius)
 * **Frank Keulen** - *Developer* - [FrankIsGek](https://github.com/frankisgek)
 * [All Contributors](https://github.com/testmonitor/oauth2-vsts/contributors)
+
 ## License
 
 The MIT License (MIT). Refer to the [License](LICENSE.md) for more information.
