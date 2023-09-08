@@ -21,7 +21,7 @@
     "tfs"
   ],
   "require": {
-    "php": ">=7.1.0",
+    "php": "^8.1",
     "league/oauth2-client": "~2.0",
     "firebase/php-jwt": "~6.0"
   },
